@@ -6,6 +6,7 @@
 # Worker script name is "binthere" (→ deploy URL binthere.<subdomain>.workers.dev);
 # the KV namespace keeps the "PASTES" name.
 name = "binthere"
+workers_dev = false
 main = "src/index.js"
 compatibility_date = "2025-10-11"
 
